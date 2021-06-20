@@ -1,0 +1,75 @@
+
+body {
+    margin-bottom: 0px;
+    padding: 0px;
+    background:rgb(102, 96, 96);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.regis-box {
+    max-width: 450px;
+    height: 600px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+    color: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.regis-box p {
+    margin-bottom: 0px;
+    padding: 0px;
+    font-weight: bold;
+}
+
+.regis-box input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.regis-box input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="email"],
+input[type="telephone"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.regis-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    background: #ff4e00;
+}
+
+.regis-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #f6fa12;
+    color: #fff;
+}
+
+.regis-box a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.regis-box a:hover {
+    color: #E33;
+}
